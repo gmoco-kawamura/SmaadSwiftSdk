@@ -1,0 +1,504 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SmaadSwiftSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmaadWKWebView",
+        "printedName": "SmaadWKWebView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "smaadDelegate",
+            "printedName": "smaadDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmaadSwiftSdk.SmaadWKWebViewDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmaadWKWebViewDelegate",
+                    "printedName": "SmaadSwiftSdk.SmaadWKWebViewDelegate",
+                    "usr": "s:13SmaadSwiftSdk0A17WKWebViewDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SmaadSwiftSdk0A9WKWebViewC13smaadDelegateAA0adeG0_pSgvp",
+            "mangledName": "$s13SmaadSwiftSdk0A9WKWebViewC13smaadDelegateAA0adeG0_pSgvp",
+            "moduleName": "SmaadSwiftSdk",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmaadSwiftSdk.SmaadWKWebViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmaadWKWebViewDelegate",
+                        "printedName": "SmaadSwiftSdk.SmaadWKWebViewDelegate",
+                        "usr": "s:13SmaadSwiftSdk0A17WKWebViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SmaadSwiftSdk0A9WKWebViewC13smaadDelegateAA0adeG0_pSgvg",
+                "mangledName": "$s13SmaadSwiftSdk0A9WKWebViewC13smaadDelegateAA0adeG0_pSgvg",
+                "moduleName": "SmaadSwiftSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmaadSwiftSdk.SmaadWKWebViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmaadWKWebViewDelegate",
+                        "printedName": "SmaadSwiftSdk.SmaadWKWebViewDelegate",
+                        "usr": "s:13SmaadSwiftSdk0A17WKWebViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SmaadSwiftSdk0A9WKWebViewC13smaadDelegateAA0adeG0_pSgvs",
+                "mangledName": "$s13SmaadSwiftSdk0A9WKWebViewC13smaadDelegateAA0adeG0_pSgvs",
+                "moduleName": "SmaadSwiftSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SmaadSwiftSdk0A9WKWebViewC13smaadDelegateAA0adeG0_pSgvM",
+                "mangledName": "$s13SmaadSwiftSdk0A9WKWebViewC13smaadDelegateAA0adeG0_pSgvM",
+                "moduleName": "SmaadSwiftSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SmaadWKWebView",
+                "printedName": "SmaadSwiftSdk.SmaadWKWebView",
+                "usr": "c:@M@SmaadSwiftSdk@objc(cs)SmaadWKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmaadSwiftSdk@objc(cs)SmaadWKWebView(im)initWithFrame:configuration:",
+            "mangledName": "$s13SmaadSwiftSdk0A9WKWebViewC5frame13configurationACSo6CGRectV_So0dE13ConfigurationCtcfc",
+            "moduleName": "SmaadSwiftSdk",
+            "overriding": true,
+            "objc_name": "initWithFrame:configuration:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmaadSwiftSdk.SmaadWKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmaadWKWebView",
+                    "printedName": "SmaadSwiftSdk.SmaadWKWebView",
+                    "usr": "c:@M@SmaadSwiftSdk@objc(cs)SmaadWKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmaadSwiftSdk@objc(cs)SmaadWKWebView(im)initWithCoder:",
+            "mangledName": "$s13SmaadSwiftSdk0A9WKWebViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SmaadSwiftSdk",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmaadSwiftSdk@objc(cs)SmaadWKWebView(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s13SmaadSwiftSdk0A9WKWebViewC21userContentController_10didReceiveySo06WKUsergH0C_So15WKScriptMessageCtF",
+            "moduleName": "SmaadSwiftSdk",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmaadSwiftSdk@objc(cs)SmaadWKWebView(im)webView:didFinishNavigation:",
+            "mangledName": "$s13SmaadSwiftSdk0A9WKWebViewC03webE0_9didFinishySo0dE0C_So12WKNavigationCSgtF",
+            "moduleName": "SmaadSwiftSdk",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmaadSwiftSdk@objc(cs)SmaadWKWebView",
+        "mangledName": "$s13SmaadSwiftSdk0A9WKWebViewC",
+        "moduleName": "SmaadSwiftSdk",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)WKWebView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "WebKit.WKWebView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmaadSwiftSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SmaadSwiftSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmaadWKWebViewDelegate",
+        "printedName": "SmaadWKWebViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webViewDidOpenURL",
+            "printedName": "webViewDidOpenURL(_:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmaadWKWebView",
+                "printedName": "SmaadSwiftSdk.SmaadWKWebView",
+                "usr": "c:@M@SmaadSwiftSdk@objc(cs)SmaadWKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SmaadSwiftSdk0A17WKWebViewDelegateP03webE10DidOpenURL_3urlyAA0adE0C_10Foundation0J0VtF",
+            "mangledName": "$s13SmaadSwiftSdk0A17WKWebViewDelegateP03webE10DidOpenURL_3urlyAA0adE0C_10Foundation0J0VtF",
+            "moduleName": "SmaadSwiftSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SmaadSwiftSdk.SmaadWKWebViewDelegate>",
+            "sugared_genericSig": "<Self where Self : SmaadSwiftSdk.SmaadWKWebViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13SmaadSwiftSdk0A17WKWebViewDelegateP",
+        "mangledName": "$s13SmaadSwiftSdk0A17WKWebViewDelegateP",
+        "moduleName": "SmaadSwiftSdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/takuya\/XcodeProjects\/Frameworks\/SmaadSwiftSdk\/SmaadSwiftSdk\/SmaadWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 182,
+      "value": "\"var SmaadWebViewSDK = {\n     open: function(url) {\n         window.webkit.messageHandlers.\""
+    },
+    {
+      "filePath": "\/Users\/takuya\/XcodeProjects\/Frameworks\/SmaadSwiftSdk\/SmaadSwiftSdk\/SmaadWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 1,
+      "value": "\".postMessage(url);\n     }\n};\""
+    },
+    {
+      "filePath": "\/Users\/takuya\/XcodeProjects\/Frameworks\/SmaadSwiftSdk\/SmaadSwiftSdk\/SmaadWKWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 971,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/takuya\/XcodeProjects\/Frameworks\/SmaadSwiftSdk\/SmaadSwiftSdk\/SmaadWKWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1492,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/takuya\/XcodeProjects\/Frameworks\/SmaadSwiftSdk\/SmaadSwiftSdk\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 5,
+      "value": "\"2.0\""
+    },
+    {
+      "filePath": "\/Users\/takuya\/XcodeProjects\/Frameworks\/SmaadSwiftSdk\/SmaadSwiftSdk\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 13,
+      "value": "\"smaadWebSDK\""
+    },
+    {
+      "filePath": "\/Users\/takuya\/XcodeProjects\/Frameworks\/SmaadSwiftSdk\/SmaadSwiftSdk\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 19,
+      "value": "\" SmaadWebViewSDK\/\""
+    },
+    {
+      "filePath": "\/Users\/takuya\/XcodeProjects\/Frameworks\/SmaadSwiftSdk\/SmaadSwiftSdk\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 21,
+      "value": "\"navigator.userAgent\""
+    }
+  ]
+}
