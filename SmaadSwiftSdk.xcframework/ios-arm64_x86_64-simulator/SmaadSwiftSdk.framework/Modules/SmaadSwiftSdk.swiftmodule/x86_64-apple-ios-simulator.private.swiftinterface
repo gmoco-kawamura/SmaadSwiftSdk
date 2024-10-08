@@ -10,13 +10,21 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class SmaadWKWebView : WebKit.WKWebView, WebKit.WKScriptMessageHandler, WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor(unsafe) public var smaadDelegate: (any SmaadSwiftSdk.SmaadWKWebViewDelegate)?
+  @_Concurrency.MainActor(unsafe) weak public var smaadDelegate: (any SmaadSwiftSdk.SmaadWKWebViewDelegate)?
+  @_Concurrency.MainActor(unsafe) public func initializeWebView(_ zoneId: Swift.Int, userParameter: Swift.String)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didReceiveServerRedirectForProvisionalNavigation navigation: WebKit.WKNavigation!)
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
   @objc deinit
 }
 public protocol SmaadWKWebViewDelegate : AnyObject {
-  func webViewDidOpenURL(_ webView: SmaadSwiftSdk.SmaadWKWebView, url: Foundation.URL)
+  func webViewDidStartLoading(_ url: Swift.String)
+  func webViewDidRedirectUrlLoading(_ url: Swift.String)
+  func webViewDidFinishLoading(_ url: Swift.String)
+  func webViewDidFailProvisionalError(_ description: Swift.String, failingUrl: Swift.String)
+  func onClosedWebView()
 }
